@@ -8,14 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <section class="header">
         <nav>
             <a href="index.html"><img id="logo-header" src="img/logo.webp" alt=""></a>
-            <div class="nav-links">
-                <i class="fa fa-times"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -24,7 +25,7 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" ></i>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
         </nav>
         <div class="text-box">
             <h1>World's Bigest Tournament</h1>
@@ -34,5 +35,196 @@
             <a href="" class="hero-btn">Visit Us To Know More</a>
         </div>
     </section>
+    <!-- course -->
+    <section class="course">
+        <h1>
+            courses we offer
+        </h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, atque.
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>
+                    Intermediate
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, repellat, numquam mollitia nemo inventore ratione veritatis quos assumenda accusamus velit at reprehenderit incidunt quaerat earum?
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>
+                    Degree
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, repellat, numquam mollitia nemo inventore ratione veritatis quos assumenda accusamus velit at reprehenderit incidunt quaerat earum?
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>
+                    Post Graduation
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, repellat, numquam mollitia nemo inventore ratione veritatis quos assumenda accusamus velit at reprehenderit incidunt quaerat earum?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- campus -->
+
+    <section class="campus">
+        <h1>
+            Our Global Campus
+        </h1>
+        <p>oremL ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/img.wall1.jpg">
+                <div class="layer">
+                    <h3>
+                        LONDON
+                    </h3>
+                </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/img.wall1.jpg">
+            <div class="layer">
+                <h3>
+                    LONDON
+                </h3>
+            </div>
+    </div>
+    <div class="campus-col">
+        <img src="img/img.wall1.jpg">
+        <div class="layer">
+            <h3>
+                LONDON
+            </h3>
+        </div>
+</div>
+        </div>
+    </section>
+
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>
+            our facilities
+        </h1>
+        <p>
+            oremL ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/bg2.jpg">
+                <h3>
+                    world class library
+                </h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore vel molestias quidem?
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/bg2.jpg">
+                <h3>
+                    world class library
+                </h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore vel molestias quidem?
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/bg2.jpg">
+                <h3>
+                    world class library
+                </h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore vel molestias quidem?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+        <h1>
+            what our student says
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem totam ipsum consequatur quia? Vitae.
+        </p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="img/prof.kratos.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dicta! Ex vero qui voluptatem aperiam eligendi doloribus! Repellat commodi dicta asperiores nulla voluptates.
+                    </p>
+                    <h3>KRATOS</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="img/prof.sus.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dicta! Ex vero qui voluptatem aperiam eligendi doloribus! Repellat commodi dicta asperiores nulla voluptates.
+                    </p>
+                    <h3>sus</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- call toaction -->
+    <section class="cta">
+        <h1>
+            Enroll for various online courses <br> anywhere from the World
+        </h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>
+            About us
+        </h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quaerat pariatur voluptate asperiores commodi, in atque assumenda <br>distinctio quidem quae, nulla quas sed optio.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made whit <i class="fa fa-heart-o"></i> by Easy Totorials</p>
+    </section>
+
+    <!-- js for menu ._.???? -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
